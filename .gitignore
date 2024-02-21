@@ -1,6 +1,13 @@
 # Prerequisites
 *.d
 
+.vs/
+*.sln
+*.vcxproj*
+x64/
+main.cpp
+
+
 # Compiled Object files
 *.slo
 *.lo
