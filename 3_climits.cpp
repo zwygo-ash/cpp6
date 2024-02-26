@@ -28,9 +28,17 @@ int main() {
 	// for more infor @see "limits.h" & "float.h"
 
 	// sizeof运算符返回类型或变量的大小(字节)
+	cout << "sizeof(int) = " << sizeof(int) << endl;
+	cout << "std::numeric_limits<int>::digits = "
+		<< std::numeric_limits<int>::digits << endl;
+
 	cout << "sizeof(long long) = " << sizeof(long long) << endl;
 	cout << "std::numeric_limits<long long>::digits = "
-		<< std::numeric_limits<long long>::digits << endl;
+		<< numeric_limits<long long>::digits << endl;
+
+	cout << "sizeof(unsigned long long) = " << sizeof(unsigned long long) << endl;
+	cout << "std::numeric_limits<unsigned long long>::digits = "
+		<< numeric_limits<unsigned long long>::digits << endl;
 
 	return 0;
 }
