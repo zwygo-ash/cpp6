@@ -20,7 +20,5 @@ int main()
 	cout.put('!');
 	cout << endl << "Done" << endl;
 
-	cout << "Hello World!" << endl;
-
 	return 0;
 }
